@@ -1,0 +1,139 @@
+{
+  "scope": "already inspected original test benchmark; descriptive error analysis after validation selection; not independent generalization evidence",
+  "changed_decisions": 13,
+  "corrected": 7,
+  "introduced_errors": 6,
+  "changes": [
+    {
+      "job_id": 1911,
+      "title": "RN Clinical Informatics (near Casper, WY)",
+      "dataset_fraud_label": 0,
+      "old_label": 1,
+      "new_label": 0,
+      "old_score": 0.7903287581530974,
+      "new_score": 0.6988559557123595,
+      "effect": "corrected"
+    },
+    {
+      "job_id": 3959,
+      "title": "cashier",
+      "dataset_fraud_label": 0,
+      "old_label": 0,
+      "new_label": 1,
+      "old_score": 0.656769030492021,
+      "new_score": 0.8688661157887303,
+      "effect": "introduced_error"
+    },
+    {
+      "job_id": 5299,
+      "title": "Customer Assistant",
+      "dataset_fraud_label": 1,
+      "old_label": 1,
+      "new_label": 0,
+      "old_score": 0.8037837716454326,
+      "new_score": 0.7183577819949527,
+      "effect": "introduced_error"
+    },
+    {
+      "job_id": 5435,
+      "title": "customer service agent",
+      "dataset_fraud_label": 1,
+      "old_label": 0,
+      "new_label": 1,
+      "old_score": 0.6733931177259016,
+      "new_score": 0.7726707750026627,
+      "effect": "corrected"
+    },
+    {
+      "job_id": 10041,
+      "title": "Customer Service/ $18hr",
+      "dataset_fraud_label": 0,
+      "old_label": 1,
+      "new_label": 0,
+      "old_score": 0.7466499385935038,
+      "new_score": 0.7448731314976701,
+      "effect": "corrected"
+    },
+    {
+      "job_id": 13645,
+      "title": "Executive Assistant",
+      "dataset_fraud_label": 0,
+      "old_label": 1,
+      "new_label": 0,
+      "old_score": 0.745637033610957,
+      "new_score": 0.5013462559380641,
+      "effect": "corrected"
+    },
+    {
+      "job_id": 14138,
+      "title": "Direct Sales Opportunity",
+      "dataset_fraud_label": 0,
+      "old_label": 0,
+      "new_label": 1,
+      "old_score": 0.5983346246299074,
+      "new_score": 0.8164467212317164,
+      "effect": "introduced_error"
+    },
+    {
+      "job_id": 17617,
+      "title": " CNC Programmer",
+      "dataset_fraud_label": 1,
+      "old_label": 0,
+      "new_label": 1,
+      "old_score": 0.6009267854657441,
+      "new_score": 0.8222132964049512,
+      "effect": "corrected"
+    },
+    {
+      "job_id": 17626,
+      "title": "Administrative Manager",
+      "dataset_fraud_label": 1,
+      "old_label": 1,
+      "new_label": 0,
+      "old_score": 0.716977922221722,
+      "new_score": 0.713504417006683,
+      "effect": "introduced_error"
+    },
+    {
+      "job_id": 17723,
+      "title": "administrative assistance",
+      "dataset_fraud_label": 1,
+      "old_label": 0,
+      "new_label": 1,
+      "old_score": 0.6686288839732065,
+      "new_score": 0.8432003823627867,
+      "effect": "corrected"
+    },
+    {
+      "job_id": 17726,
+      "title": "Customer Service Rep Call Center",
+      "dataset_fraud_label": 1,
+      "old_label": 1,
+      "new_label": 0,
+      "old_score": 0.7041294865922282,
+      "new_score": 0.43537858626920706,
+      "effect": "introduced_error"
+    },
+    {
+      "job_id": 17761,
+      "title": "Payroll Clerk",
+      "dataset_fraud_label": 1,
+      "old_label": 1,
+      "new_label": 0,
+      "old_score": 0.7540841989636318,
+      "new_score": 0.6743683789492826,
+      "effect": "introduced_error"
+    },
+    {
+      "job_id": 17818,
+      "title": "CSR",
+      "dataset_fraud_label": 1,
+      "old_label": 0,
+      "new_label": 1,
+      "old_score": 0.6265923630429617,
+      "new_score": 0.7862185419574987,
+      "effect": "corrected"
+    }
+  ],
+  "note": "Equal total recall can conceal different frauds detected. A small net false-positive gain does not establish calibration, semantic understanding, or illegal-recruitment detection."
+}

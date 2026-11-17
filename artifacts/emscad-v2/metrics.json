@@ -1,0 +1,117 @@
+{
+  "neural_network": {
+    "precision": 0.7439024390243902,
+    "recall": 0.5169491525423728,
+    "f1": 0.61,
+    "pr_auc_average_precision": 0.6389208971019862,
+    "accuracy": 0.9745181313296308,
+    "roc_auc": 0.925580377454114,
+    "threshold": 0.7591350674629211,
+    "confusion_matrix": [
+      [
+        2922,
+        21
+      ],
+      [
+        57,
+        61
+      ]
+    ],
+    "false_positives": 21,
+    "test_count": 3061,
+    "fraudulent_count": 118,
+    "evaluation_status": "reused_original_benchmark_not_independent"
+  },
+  "logistic_regression": {
+    "precision": 0.7922077922077922,
+    "recall": 0.5169491525423728,
+    "f1": 0.6256410256410256,
+    "pr_auc_average_precision": 0.6786474935739855,
+    "accuracy": 0.9761515844495263,
+    "roc_auc": 0.926706289558101,
+    "threshold": 0.6970136338980503,
+    "confusion_matrix": [
+      [
+        2927,
+        16
+      ],
+      [
+        57,
+        61
+      ]
+    ],
+    "false_positives": 16,
+    "test_count": 3061,
+    "fraudulent_count": 118,
+    "evaluation_status": "reused_original_benchmark_not_independent"
+  },
+  "majority_baseline": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "pr_auc_average_precision": 0.03854949362953283,
+    "accuracy": 0.9614505063704671,
+    "roc_auc": 0.5,
+    "threshold": 0.5,
+    "confusion_matrix": [
+      [
+        2943,
+        0
+      ],
+      [
+        118,
+        0
+      ]
+    ],
+    "false_positives": 0,
+    "test_count": 3061,
+    "fraudulent_count": 118,
+    "evaluation_status": "reused_original_benchmark_not_independent"
+  },
+  "word_char_logistic": {
+    "precision": 0.8026315789473685,
+    "recall": 0.5169491525423728,
+    "f1": 0.6288659793814433,
+    "pr_auc_average_precision": 0.6752303254732895,
+    "accuracy": 0.9764782750735054,
+    "roc_auc": 0.9297298386864551,
+    "threshold": 0.7460927681222972,
+    "confusion_matrix": [
+      [
+        2928,
+        15
+      ],
+      [
+        57,
+        61
+      ]
+    ],
+    "false_positives": 15,
+    "test_count": 3061,
+    "fraudulent_count": 118,
+    "evaluation_status": "reused_original_benchmark_not_independent"
+  },
+  "context_encoder": {
+    "precision": 0.82,
+    "recall": 0.3474576271186441,
+    "f1": 0.4880952380952381,
+    "pr_auc_average_precision": 0.6351210658211001,
+    "accuracy": 0.9719046063377981,
+    "roc_auc": 0.9226259380201225,
+    "threshold": 0.48287349939346313,
+    "confusion_matrix": [
+      [
+        2934,
+        9
+      ],
+      [
+        77,
+        41
+      ]
+    ],
+    "false_positives": 9,
+    "test_count": 3061,
+    "fraudulent_count": 118,
+    "evaluation_status": "reused_original_benchmark_not_independent"
+  }
+}

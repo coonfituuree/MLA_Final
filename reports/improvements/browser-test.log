@@ -1,0 +1,15 @@
+
+> vacancylens@1.0.0 test:e2e
+> playwright test
+
+
+Running 4 tests using 1 worker
+
+(node:135417) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 e2e/prediction.spec.ts:8:1 › real prediction, model selection, validation, file upload and mobile layout (1.2s)
+  ✓  2 e2e/prediction.spec.ts:42:1 › latest complete fields, contextual evidence and paired equipment control (1.0s)
+  ✓  3 e2e/prediction.spec.ts:77:1 › exact user courier case stays uncertain and exposes model disagreement (728ms)
+  ✓  4 e2e/prediction.spec.ts:92:1 › new fitted classifiers work through the real interface (608ms)
+
+  4 passed (4.6s)

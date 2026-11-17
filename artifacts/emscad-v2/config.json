@@ -1,0 +1,557 @@
+{
+  "model_version": "emscad-v2",
+  "preprocessing_version": "text-v1",
+  "class_mapping": {
+    "0": "legitimate",
+    "1": "potentially_fraudulent"
+  },
+  "architecture": {
+    "input_dim": 12000,
+    "hidden_dim": 128,
+    "dropout": 0.5
+  },
+  "thresholds": {
+    "neural_network": 0.7591350674629211,
+    "logistic_regression": 0.6970136338980503,
+    "majority_baseline": 0.5,
+    "word_char_logistic": 0.7460927681222972,
+    "context_encoder": 0.48287349939346313
+  },
+  "default_model": "neural_network",
+  "seed": 42,
+  "training": {
+    "tfidf": {
+      "max_features": 12000,
+      "min_df": 2,
+      "max_df": 0.98,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "strip_accents": "unicode",
+      "dtype": "float32"
+    },
+    "positive_weight": 20.622362869198312,
+    "optimizer": "AdamW",
+    "loss": "BCEWithLogitsLoss",
+    "batch_size": 128,
+    "epoch_limit": 30,
+    "early_stopping": "validation average precision; patience 5; min_delta 0.0001",
+    "weight_decay": 0.0001,
+    "selected_neural_trial": {
+      "model": "neural_network",
+      "hidden_dim": 128,
+      "dropout": 0.5,
+      "lr": 0.001,
+      "validation_ap": 0.6603188820476066,
+      "best_epoch": 21,
+      "epochs_run": 26
+    },
+    "selected_logistic_C": 8.0,
+    "logistic_class_weight": "balanced",
+    "threshold_selection": "Maximum fraudulent-class F1 on validation scores; first (lowest) threshold on ties.",
+    "selection_metric": "validation average precision",
+    "split": "5-fold StratifiedGroupKFold(seed=42); fold 0 test, fold 1 validation, folds 2-4 train. Long identical employer profiles/descriptions and verified near-duplicates grouped.",
+    "word_char_v2": {
+      "selected": {
+        "family": "word_char",
+        "C": 8.0,
+        "class_weight": "balanced",
+        "validation": {
+          "precision": 0.7142857142857143,
+          "recall": 0.5785123966942148,
+          "f1": 0.639269406392694,
+          "average_precision": 0.7064917335477588,
+          "false_positives": 28,
+          "confusion_matrix": [
+            [
+              2413,
+              28
+            ],
+            [
+              51,
+              70
+            ]
+          ],
+          "threshold": 0.7460927681222972,
+          "count": 2562,
+          "positive_count": 121
+        }
+      },
+      "original_validation": {
+        "precision": 0.7,
+        "recall": 0.5785123966942148,
+        "f1": 0.6334841628959276,
+        "average_precision": 0.6595020697131991,
+        "false_positives": 30,
+        "confusion_matrix": [
+          [
+            2411,
+            30
+          ],
+          [
+            51,
+            70
+          ]
+        ],
+        "threshold": 0.6970136338980503,
+        "count": 2562,
+        "positive_count": 121
+      },
+      "trials": [
+        {
+          "family": "word",
+          "C": 2.0,
+          "class_weight": "balanced",
+          "validation": {
+            "precision": 0.6460176991150443,
+            "recall": 0.6033057851239669,
+            "f1": 0.6239316239316239,
+            "average_precision": 0.6467975641612583,
+            "false_positives": 40,
+            "confusion_matrix": [
+              [
+                2401,
+                40
+              ],
+              [
+                48,
+                73
+              ]
+            ],
+            "threshold": 0.6607311074193759,
+            "count": 2562,
+            "positive_count": 121
+          }
+        },
+        {
+          "family": "word",
+          "C": 8.0,
+          "class_weight": "balanced",
+          "validation": {
+            "precision": 0.7,
+            "recall": 0.5785123966942148,
+            "f1": 0.6334841628959276,
+            "average_precision": 0.6595020697131991,
+            "false_positives": 30,
+            "confusion_matrix": [
+              [
+                2411,
+                30
+              ],
+              [
+                51,
+                70
+              ]
+            ],
+            "threshold": 0.6970136338980503,
+            "count": 2562,
+            "positive_count": 121
+          }
+        },
+        {
+          "family": "word",
+          "C": 2.0,
+          "class_weight": null,
+          "validation": {
+            "precision": 0.5887096774193549,
+            "recall": 0.6033057851239669,
+            "f1": 0.5959183673469388,
+            "average_precision": 0.6122406816665346,
+            "false_positives": 51,
+            "confusion_matrix": [
+              [
+                2390,
+                51
+              ],
+              [
+                48,
+                73
+              ]
+            ],
+            "threshold": 0.19544523823231663,
+            "count": 2562,
+            "positive_count": 121
+          }
+        },
+        {
+          "family": "word",
+          "C": 8.0,
+          "class_weight": null,
+          "validation": {
+            "precision": 0.7654320987654321,
+            "recall": 0.512396694214876,
+            "f1": 0.6138613861386139,
+            "average_precision": 0.6492513954095628,
+            "false_positives": 19,
+            "confusion_matrix": [
+              [
+                2422,
+                19
+              ],
+              [
+                59,
+                62
+              ]
+            ],
+            "threshold": 0.3483467562655078,
+            "count": 2562,
+            "positive_count": 121
+          }
+        },
+        {
+          "family": "word_char",
+          "C": 2.0,
+          "class_weight": "balanced",
+          "validation": {
+            "precision": 0.6446280991735537,
+            "recall": 0.6446280991735537,
+            "f1": 0.6446280991735537,
+            "average_precision": 0.7025127730078142,
+            "false_positives": 43,
+            "confusion_matrix": [
+              [
+                2398,
+                43
+              ],
+              [
+                43,
+                78
+              ]
+            ],
+            "threshold": 0.6648333630377944,
+            "count": 2562,
+            "positive_count": 121
+          }
+        },
+        {
+          "family": "word_char",
+          "C": 8.0,
+          "class_weight": "balanced",
+          "validation": {
+            "precision": 0.7142857142857143,
+            "recall": 0.5785123966942148,
+            "f1": 0.639269406392694,
+            "average_precision": 0.7064917335477588,
+            "false_positives": 28,
+            "confusion_matrix": [
+              [
+                2413,
+                28
+              ],
+              [
+                51,
+                70
+              ]
+            ],
+            "threshold": 0.7460927681222972,
+            "count": 2562,
+            "positive_count": 121
+          }
+        },
+        {
+          "family": "word_char",
+          "C": 2.0,
+          "class_weight": null,
+          "validation": {
+            "precision": 0.5827338129496403,
+            "recall": 0.6694214876033058,
+            "f1": 0.6230769230769231,
+            "average_precision": 0.6764384148617426,
+            "false_positives": 58,
+            "confusion_matrix": [
+              [
+                2383,
+                58
+              ],
+              [
+                40,
+                81
+              ]
+            ],
+            "threshold": 0.21140609007894262,
+            "count": 2562,
+            "positive_count": 121
+          }
+        },
+        {
+          "family": "word_char",
+          "C": 8.0,
+          "class_weight": null,
+          "validation": {
+            "precision": 0.6074074074074074,
+            "recall": 0.6776859504132231,
+            "f1": 0.640625,
+            "average_precision": 0.6984012263203102,
+            "false_positives": 53,
+            "confusion_matrix": [
+              [
+                2388,
+                53
+              ],
+              [
+                39,
+                82
+              ]
+            ],
+            "threshold": 0.23648667024829254,
+            "count": 2562,
+            "positive_count": 121
+          }
+        }
+      ],
+      "seed": 42,
+      "split_sha256": "4abc3a4449456421743d3f7a2dac6e69ff54e1af31ddefa5c1c8afce7f2a2b7a",
+      "test_used_for_selection": false,
+      "warning": "Original test outcomes were previously inspected. Reused benchmark results are descriptive, not independent new generalization evidence."
+    }
+  },
+  "provenance": {
+    "dataset": "Employment Scam Aegean Dataset (EMSCAD)",
+    "source": "https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction",
+    "download_url": "https://www.kaggle.com/api/v1/datasets/download/shivamb/real-or-fake-fake-jobposting-prediction",
+    "sha256": "59253295129d8b6a27607f9904f7d4ddf4dbb0ee35e079c7eb51b58b5e62bf60",
+    "bytes": 50061601,
+    "downloaded_utc": "2026-11-17T20:17:45.340773+00:00",
+    "local_csv_matches_official_kaggle_archive": true,
+    "license": "Kaggle distribution declares CC0: Public Domain; original paper describes public research release; uploader license does not independently resolve rights in original advertisement content.",
+    "paper": "https://doi.org/10.3390/fi9010006"
+  },
+  "environment": {
+    "python": "3.12.16",
+    "torch": "2.7.1+cpu",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.6.1",
+    "joblib": "1.6.0",
+    "transformers": "4.51.3",
+    "tokenizers": "0.21.1",
+    "huggingface-hub": "0.30.2",
+    "safetensors": "0.5.3"
+  },
+  "scope": "English EMSCAD advertisements from 2012\u20132014; historical platform and geography biases. Scores are uncalibrated screening signals.",
+  "model_versions": {
+    "neural_network": "emscad-v1-mlp",
+    "logistic_regression": "emscad-v1-lr",
+    "word_char_logistic": "emscad-v2-word-char-lr",
+    "context_encoder": "emscad-v2-tiny-bert"
+  },
+  "evaluation_scope": "Validation used for selection; original test already inspected in v1 and retained as a reused descriptive benchmark. No new independent generalization claim; illegal-recruitment labels unavailable.",
+  "context_encoder": {
+    "selected": {
+      "lr": 0.0002,
+      "best_epoch": 1,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 2.022848961195865,
+          "precision": 0.8333333333333334,
+          "recall": 0.45454545454545453,
+          "f1": 0.5882352941176471,
+          "average_precision": 0.615437912156197,
+          "false_positives": 11,
+          "confusion_matrix": [
+            [
+              2430,
+              11
+            ],
+            [
+              66,
+              55
+            ]
+          ],
+          "threshold": 0.48287349939346313,
+          "count": 2562,
+          "positive_count": 121
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.5274850250510322,
+          "precision": 0.803030303030303,
+          "recall": 0.4380165289256198,
+          "f1": 0.5668449197860963,
+          "average_precision": 0.5716566581837149,
+          "false_positives": 13,
+          "confusion_matrix": [
+            [
+              2428,
+              13
+            ],
+            [
+              68,
+              53
+            ]
+          ],
+          "threshold": 0.999782383441925,
+          "count": 2562,
+          "positive_count": 121
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.12598605621432352,
+          "precision": 0.5983606557377049,
+          "recall": 0.6033057851239669,
+          "f1": 0.6008230452674898,
+          "average_precision": 0.5532818754298696,
+          "false_positives": 49,
+          "confusion_matrix": [
+            [
+              2392,
+              49
+            ],
+            [
+              48,
+              73
+            ]
+          ],
+          "threshold": 0.8633096218109131,
+          "count": 2562,
+          "positive_count": 121
+        }
+      ],
+      "validation": {
+        "precision": 0.8333333333333334,
+        "recall": 0.45454545454545453,
+        "f1": 0.5882352941176471,
+        "average_precision": 0.615437912156197,
+        "false_positives": 11,
+        "confusion_matrix": [
+          [
+            2430,
+            11
+          ],
+          [
+            66,
+            55
+          ]
+        ],
+        "threshold": 0.48287349939346313,
+        "count": 2562,
+        "positive_count": 121
+      }
+    },
+    "trials": [
+      {
+        "lr": 0.0002,
+        "best_epoch": 1,
+        "history": [
+          {
+            "epoch": 1,
+            "train_loss": 2.022848961195865,
+            "precision": 0.8333333333333334,
+            "recall": 0.45454545454545453,
+            "f1": 0.5882352941176471,
+            "average_precision": 0.615437912156197,
+            "false_positives": 11,
+            "confusion_matrix": [
+              [
+                2430,
+                11
+              ],
+              [
+                66,
+                55
+              ]
+            ],
+            "threshold": 0.48287349939346313,
+            "count": 2562,
+            "positive_count": 121
+          },
+          {
+            "epoch": 2,
+            "train_loss": 0.5274850250510322,
+            "precision": 0.803030303030303,
+            "recall": 0.4380165289256198,
+            "f1": 0.5668449197860963,
+            "average_precision": 0.5716566581837149,
+            "false_positives": 13,
+            "confusion_matrix": [
+              [
+                2428,
+                13
+              ],
+              [
+                68,
+                53
+              ]
+            ],
+            "threshold": 0.999782383441925,
+            "count": 2562,
+            "positive_count": 121
+          },
+          {
+            "epoch": 3,
+            "train_loss": 0.12598605621432352,
+            "precision": 0.5983606557377049,
+            "recall": 0.6033057851239669,
+            "f1": 0.6008230452674898,
+            "average_precision": 0.5532818754298696,
+            "false_positives": 49,
+            "confusion_matrix": [
+              [
+                2392,
+                49
+              ],
+              [
+                48,
+                73
+              ]
+            ],
+            "threshold": 0.8633096218109131,
+            "count": 2562,
+            "positive_count": 121
+          }
+        ],
+        "validation": {
+          "precision": 0.8333333333333334,
+          "recall": 0.45454545454545453,
+          "f1": 0.5882352941176471,
+          "average_precision": 0.615437912156197,
+          "false_positives": 11,
+          "confusion_matrix": [
+            [
+              2430,
+              11
+            ],
+            [
+              66,
+              55
+            ]
+          ],
+          "threshold": 0.48287349939346313,
+          "count": 2562,
+          "positive_count": 121
+        }
+      }
+    ],
+    "source": {
+      "model_id": "google/bert_uncased_L-2_H-128_A-2",
+      "revision": "30b0a37ccaaa32f332884b96992754e246e48c5f",
+      "license": "Apache-2.0",
+      "url": "https://huggingface.co/google/bert_uncased_L-2_H-128_A-2"
+    },
+    "architecture": {
+      "chunk_tokens": 192,
+      "chunk_overlap": 0,
+      "pooling": "token-count weighted mean of within-chunk masked mean hidden states",
+      "dropout": 0.2,
+      "all_input_tokens_retained": true
+    },
+    "training": {
+      "seed": 42,
+      "optimizer": "AdamW",
+      "loss": "BCEWithLogitsLoss",
+      "positive_weight": 20.622362869198312,
+      "batch_documents": 8,
+      "epoch_limit": 3,
+      "patience": 2,
+      "weight_decay": 0.01,
+      "gradient_clip": 1.0,
+      "fine_tuned_encoder_parameters": true,
+      "train_count": 10249
+    },
+    "split_sha256": "4abc3a4449456421743d3f7a2dac6e69ff54e1af31ddefa5c1c8afce7f2a2b7a",
+    "test_used_for_selection": false
+  }
+}

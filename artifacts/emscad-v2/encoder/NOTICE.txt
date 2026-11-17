@@ -1,0 +1,10 @@
+The optional compact encoder is initialized from Google's English BERT Miniatures:
+https://huggingface.co/google/bert_uncased_L-2_H-128_A-2
+Pinned revision: 30b0a37ccaaa32f332884b96992754e246e48c5f
+Model card license: Apache-2.0.
+Upstream implementation/release: https://github.com/google-research/bert
+Copyright 2018 The Google AI Language Team Authors (upstream BERT repository).
+The project fine-tunes this initialization on real EMSCAD fraud labels with a
+new document pooling/classification head. The resulting model does not identify
+illegal recruitment as a separately trained task.
+No affiliation with or endorsement by Google is implied.

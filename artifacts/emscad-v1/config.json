@@ -1,0 +1,75 @@
+{
+  "model_version": "emscad-v1",
+  "preprocessing_version": "text-v1",
+  "class_mapping": {
+    "0": "legitimate",
+    "1": "potentially_fraudulent"
+  },
+  "architecture": {
+    "input_dim": 12000,
+    "hidden_dim": 128,
+    "dropout": 0.5
+  },
+  "thresholds": {
+    "neural_network": 0.7591350674629211,
+    "logistic_regression": 0.6970136338980503,
+    "majority_baseline": 0.5
+  },
+  "default_model": "neural_network",
+  "seed": 42,
+  "training": {
+    "tfidf": {
+      "max_features": 12000,
+      "min_df": 2,
+      "max_df": 0.98,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "strip_accents": "unicode",
+      "dtype": "float32"
+    },
+    "positive_weight": 20.622362869198312,
+    "optimizer": "AdamW",
+    "loss": "BCEWithLogitsLoss",
+    "batch_size": 128,
+    "epoch_limit": 30,
+    "early_stopping": "validation average precision; patience 5; min_delta 0.0001",
+    "weight_decay": 0.0001,
+    "selected_neural_trial": {
+      "model": "neural_network",
+      "hidden_dim": 128,
+      "dropout": 0.5,
+      "lr": 0.001,
+      "validation_ap": 0.6603188820476066,
+      "best_epoch": 21,
+      "epochs_run": 26
+    },
+    "selected_logistic_C": 8.0,
+    "logistic_class_weight": "balanced",
+    "threshold_selection": "Maximum fraudulent-class F1 on validation scores; first (lowest) threshold on ties.",
+    "selection_metric": "validation average precision",
+    "split": "5-fold StratifiedGroupKFold(seed=42); fold 0 test, fold 1 validation, folds 2-4 train. Long identical employer profiles/descriptions and verified near-duplicates grouped."
+  },
+  "provenance": {
+    "dataset": "Employment Scam Aegean Dataset (EMSCAD)",
+    "source": "https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction",
+    "download_url": "https://www.kaggle.com/api/v1/datasets/download/shivamb/real-or-fake-fake-jobposting-prediction",
+    "sha256": "59253295129d8b6a27607f9904f7d4ddf4dbb0ee35e079c7eb51b58b5e62bf60",
+    "bytes": 50061601,
+    "downloaded_utc": "2026-11-17T20:17:45.340773+00:00",
+    "local_csv_matches_official_kaggle_archive": true,
+    "license": "Kaggle distribution declares CC0: Public Domain; original paper describes public research release; uploader license does not independently resolve rights in original advertisement content.",
+    "paper": "https://doi.org/10.3390/fi9010006"
+  },
+  "environment": {
+    "python": "3.12.16",
+    "torch": "2.7.1+cpu",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.6.1",
+    "joblib": "1.6.0"
+  },
+  "scope": "English EMSCAD advertisements from 2012\u20132014; historical platform and geography biases. Scores are uncalibrated screening signals."
+}

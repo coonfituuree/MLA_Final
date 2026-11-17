@@ -1,0 +1,11 @@
+{
+  "source": "EMSCAD official Kaggle CSV, first fraudulent test row in original order; description-only input",
+  "job_id": 358,
+  "description": "If you have experience in financing for auto sales and a great attitude you can work in our Hazelcrest office.\u00a0 From $500 top $1000 a week by contract.",
+  "neural_score": 0.9396876096725464,
+  "logistic_score": 0.17276090275887368,
+  "optional_model_scores": {
+    "word_char_logistic": 0.12530735621469988,
+    "context_encoder": 0.4304957687854767
+  }
+}

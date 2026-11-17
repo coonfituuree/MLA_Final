@@ -1,0 +1,23 @@
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 920.17it/s]
+You're using a BertTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+encoder lr=0.0002 epoch=1 documents=0/10249
+encoder lr=0.0002 epoch=1 documents=2048/10249
+encoder lr=0.0002 epoch=1 documents=4096/10249
+encoder lr=0.0002 epoch=1 documents=6144/10249
+encoder lr=0.0002 epoch=1 documents=8192/10249
+encoder lr=0.0002 epoch=1 documents=10240/10249
+encoder lr=0.0002 epoch=1 {'epoch': 1, 'train_loss': 2.022848961195865, 'precision': 0.8333333333333334, 'recall': 0.45454545454545453, 'f1': 0.5882352941176471, 'average_precision': 0.615437912156197, 'false_positives': 11, 'confusion_matrix': [[2430, 11], [66, 55]], 'threshold': 0.48287349939346313, 'count': 2562, 'positive_count': 121}
+encoder lr=0.0002 epoch=2 documents=0/10249
+encoder lr=0.0002 epoch=2 documents=2048/10249
+encoder lr=0.0002 epoch=2 documents=4096/10249
+encoder lr=0.0002 epoch=2 documents=6144/10249
+encoder lr=0.0002 epoch=2 documents=8192/10249
+encoder lr=0.0002 epoch=2 documents=10240/10249
+encoder lr=0.0002 epoch=2 {'epoch': 2, 'train_loss': 0.5274850250510322, 'precision': 0.803030303030303, 'recall': 0.4380165289256198, 'f1': 0.5668449197860963, 'average_precision': 0.5716566581837149, 'false_positives': 13, 'confusion_matrix': [[2428, 13], [68, 53]], 'threshold': 0.999782383441925, 'count': 2562, 'positive_count': 121}
+encoder lr=0.0002 epoch=3 documents=0/10249
+encoder lr=0.0002 epoch=3 documents=2048/10249
+encoder lr=0.0002 epoch=3 documents=4096/10249
+encoder lr=0.0002 epoch=3 documents=6144/10249
+encoder lr=0.0002 epoch=3 documents=8192/10249
+encoder lr=0.0002 epoch=3 documents=10240/10249
+encoder lr=0.0002 epoch=3 {'epoch': 3, 'train_loss': 0.12598605621432352, 'precision': 0.5983606557377049, 'recall': 0.6033057851239669, 'f1': 0.6008230452674898, 'average_precision': 0.5532818754298696, 'false_positives': 49, 'confusion_matrix': [[2392, 49], [48, 73]], 'threshold': 0.8633096218109131, 'count': 2562, 'positive_count': 121}

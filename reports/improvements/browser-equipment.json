@@ -1,0 +1,12 @@
+{
+  "source": "clearly handwritten controlled diagnostic; not real-world accuracy data",
+  "fields": {
+    "title": "Junior Operations Coordinator",
+    "company_profile": "Our operations team supports scheduling, documentation and communication across departments.",
+    "description": "Coordinate schedules, maintain accurate records and support internal teams. This is an entry-level operations role with training and regular feedback.",
+    "benefits": "Flexible working arrangements, paid leave and professional development.",
+    "requirements": "Before the employment agreement is finalized, new team members complete workstation provisioning through our designated supply portal. The standard equipment package costs $290 and is initially covered by the candidate. This amount is included in the first payroll reimbursement after successful onboarding. To maintain a consistent security configuration, equipment purchased elsewhere cannot be used."
+  },
+  "free_requirements": "Before the employment agreement is finalized, new team members complete workstation provisioning through our designated supply portal. The standard equipment package is provided by the employer at no cost to the candidate. No payment is required from the candidate before or after onboarding. To maintain a consistent security configuration, equipment purchased elsewhere cannot be used.",
+  "prepared_sha256": "cffee595ef04c996a48fc1fd05416656836364f121b38688e5c222fd681ffa7a"
+}

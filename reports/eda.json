@@ -1,0 +1,100 @@
+{
+  "rows": 17880,
+  "columns": 18,
+  "class_counts": {
+    "0": 17014,
+    "1": 866
+  },
+  "missing": {
+    "job_id": 0,
+    "title": 0,
+    "location": 346,
+    "department": 11547,
+    "salary_range": 15012,
+    "company_profile": 3308,
+    "description": 1,
+    "requirements": 2696,
+    "benefits": 7212,
+    "telecommuting": 0,
+    "has_company_logo": 0,
+    "has_questions": 0,
+    "employment_type": 3471,
+    "required_experience": 7050,
+    "required_education": 8105,
+    "industry": 4903,
+    "function": 6455,
+    "fraudulent": 0
+  },
+  "empty_clean_fields": {
+    "title": 13,
+    "company_profile": 3308,
+    "description": 2,
+    "requirements": 2698,
+    "benefits": 7220
+  },
+  "exact_full_rows_excluding_id": 281,
+  "normalized_duplicate_excess": 2008,
+  "conflicting_groups": 0,
+  "quarantined_rows": 0,
+  "empty_combined_rows": 0,
+  "usable_rows": 15872,
+  "word_lengths_by_class": {
+    "0": {
+      "count": 17014.0,
+      "mean": 379.5063477136476,
+      "std": 206.6846822011891,
+      "min": 7.0,
+      "10%": 128.0,
+      "50%": 355.0,
+      "90%": 646.0,
+      "99%": 973.0,
+      "max": 2118.0
+    },
+    "1": {
+      "count": 866.0,
+      "mean": 282.338337182448,
+      "std": 203.86226186275456,
+      "min": 2.0,
+      "10%": 83.5,
+      "50%": 224.5,
+      "90%": 575.0,
+      "99%": 956.9500000000004,
+      "max": 1338.0
+    }
+  },
+  "missing_profile_fraud_rate": 0.17744860943168078,
+  "present_profile_fraud_rate": 0.01914630798792204,
+  "countries": {
+    "US": 10656,
+    "GB": 2384,
+    "GR": 940,
+    "CA": 457,
+    "DE": 383,
+    "Unknown": 346,
+    "NZ": 333,
+    "IN": 276,
+    "AU": 214,
+    "PH": 132,
+    "NL": 127,
+    "BE": 117
+  },
+  "groups": 4795,
+  "largest_group": 495,
+  "near_duplicate_pairs_verified": 12203,
+  "cross_split_verified_near_pairs": 0,
+  "near_duplicate_method": "64-permutation MinHash LSH candidates (0.75), exact 5-word-shingle Jaccard >=0.85; approximate candidate search, not exhaustive.",
+  "split_counts": {
+    "test": {
+      "0": 2943,
+      "1": 118
+    },
+    "train": {
+      "0": 9775,
+      "1": 474
+    },
+    "validation": {
+      "0": 2441,
+      "1": 121
+    }
+  }
+}

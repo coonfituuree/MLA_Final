@@ -1,0 +1,7 @@
+{
+  "version": "review-v1.2",
+  "rules_sha256": "e19ce671c150c69fe42559ea77e2834a18659a40b1b59e44360d52159bca0350",
+  "partition": "original_validation",
+  "labels": "EMSCAD fraud labels only; no independently adjudicated risk-specific labels",
+  "rule_development_data": "handwritten behavior probes and cited FTC/FBI guidance; these validation advertisements were not inspected to tune the rules."
+}

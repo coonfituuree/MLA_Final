@@ -1,0 +1,14 @@
+{
+  "source_revision": "30b0a37ccaaa32f332884b96992754e246e48c5f",
+  "encoder_weights_changed_after_real_label_training": true,
+  "parameters_checked": {
+    "embeddings.word_embeddings.weight": {
+      "max_abs_change": 0.06662309169769287,
+      "changed_values": 3906815
+    },
+    "encoder.layer.1.attention.self.query.weight": {
+      "max_abs_change": 0.03366466611623764,
+      "changed_values": 16384
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "rules_sha256": "e19ce671c150c69fe42559ea77e2834a18659a40b1b59e44360d52159bca0350",
+  "version": "review-v1.2",
+  "partition": "validation",
+  "total": 2562,
+  "warning_ads": 0,
+  "warnings_on_dataset_legitimate": 0,
+  "warnings_on_dataset_fraudulent": 0,
+  "signals": {},
+  "topic_counts": {
+    "equipment": {
+      "count": 182,
+      "dataset_legitimate": 172,
+      "dataset_fraudulent": 10,
+      "warnings": 0,
+      "warnings_on_dataset_legitimate": 0
+    },
+    "payments": {
+      "count": 28,
+      "dataset_legitimate": 25,
+      "dataset_fraudulent": 3,
+      "warnings": 0,
+      "warnings_on_dataset_legitimate": 0
+    },
+    "reimbursement": {
+      "count": 69,
+      "dataset_legitimate": 68,
+      "dataset_fraudulent": 1,
+      "warnings": 0,
+      "warnings_on_dataset_legitimate": 0
+    },
+    "remote": {
+      "count": 119,
+      "dataset_legitimate": 94,
+      "dataset_fraudulent": 25,
+      "warnings": 0,
+      "warnings_on_dataset_legitimate": 0
+    },
+    "courier": {
+      "count": 6,
+      "dataset_legitimate": 5,
+      "dataset_fraudulent": 1,
+      "warnings": 0,
+      "warnings_on_dataset_legitimate": 0
+    }
+  },
+  "cases": [],
+  "interpretation": "Warning overlap with EMSCAD labels is descriptive. There are no independently verified labels for these specific risk patterns. Zero warnings/false alarms in a stratum is not evidence of risk recall or employer verification."
+}

@@ -1,0 +1,8 @@
+{
+  "vectorizer.joblib": "785b6a8760804ca1fd2774618ec0ec875e9b77a1ccad441aa8106f1346cf338e",
+  "neural_network.pt": "a4ce6d006b50127873a98cd0014eb47ff3a9b96fe4f9632ad24edfc12e432dda",
+  "logistic_regression.joblib": "7fb94f49afde12e989657800fea08cea8ee4c41400f2c4324553afd8e94d5539",
+  "baseline.joblib": "7b6820324312d2b6c467ee6ab1140e0946fb72d060543c18c7f600d85c43c635",
+  "metrics.json": "0b537eda606d34bac4f5d559617aea4456e2f30423bc964f46a3148fff628bc6",
+  "config.json": "e4e7eefd516a11bc07f759166e1a73f3fb307da9c2ae27ea63417a9e4096b848"
+}

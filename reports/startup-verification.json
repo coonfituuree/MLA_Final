@@ -1,0 +1,25 @@
+{
+  "started_from_other_directory": true,
+  "ready": {
+    "status": "ready",
+    "model_version": "emscad-v1",
+    "device": "cpu"
+  },
+  "frontend_status": 200,
+  "proxy_prediction": {
+    "predicted_label": 1,
+    "label": "potentially_fraudulent",
+    "model_score": 0.9396876096725464,
+    "decision_threshold": 0.7591350674629211,
+    "model_name": "neural_network",
+    "model_version": "emscad-v1",
+    "score_note": "Uncalibrated model score; a screening signal, not a verified fraud probability.",
+    "vocabulary_match": true
+  },
+  "children_before_stop": [
+    117932,
+    117934
+  ],
+  "exit_status": 143,
+  "children_cleaned_up": true
+}

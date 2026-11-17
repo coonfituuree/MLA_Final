@@ -1,0 +1,382 @@
+{
+  "courier": {
+    "model_version": "emscad-v1",
+    "logistic_features": [
+      {
+        "term": "money",
+        "tfidf_times_coefficient": 0.4771589495534069
+      },
+      {
+        "term": "earn",
+        "tfidf_times_coefficient": 0.31183910686196425
+      },
+      {
+        "term": "jobs",
+        "tfidf_times_coefficient": 0.26823440599875614
+      },
+      {
+        "term": "flexible schedule",
+        "tfidf_times_coefficient": 0.26464815007049297
+      },
+      {
+        "term": "part time",
+        "tfidf_times_coefficient": 0.261593371561986
+      },
+      {
+        "term": "000",
+        "tfidf_times_coefficient": 0.22796273152131605
+      },
+      {
+        "term": "earning",
+        "tfidf_times_coefficient": 0.22429551560480862
+      },
+      {
+        "term": "door",
+        "tfidf_times_coefficient": 0.19756920596184657
+      },
+      {
+        "term": "no",
+        "tfidf_times_coefficient": 0.18755069170934113
+      },
+      {
+        "term": "per day",
+        "tfidf_times_coefficient": 0.18422057440592413
+      },
+      {
+        "term": "immediate",
+        "tfidf_times_coefficient": 0.18102699178799478
+      },
+      {
+        "term": "home",
+        "tfidf_times_coefficient": 0.1751161301858703
+      },
+      {
+        "term": "delivery",
+        "tfidf_times_coefficient": -0.1646105174072555
+      },
+      {
+        "term": "courier",
+        "tfidf_times_coefficient": 0.16142337372961477
+      },
+      {
+        "term": "pay",
+        "tfidf_times_coefficient": 0.15317453352912885
+      },
+      {
+        "term": "daily",
+        "tfidf_times_coefficient": 0.15061662288634164
+      }
+    ],
+    "logistic_intercept": -1.06551216205205,
+    "neural_sentence_ablation": [
+      {
+        "field": "description",
+        "removed_normalized_text": "This job opening is also a good fit for you if you\u2019ve been looking for: Courier jobs, logistics jobs, home delivery, app-based delivery, cargo handling, city-wide delivery, courier, jobs with flexible schedules, on-foot courier, part-time work with room for growth, Yandex courier, part-time work, courier services, courier jobs in your area, high earnings from deliveries, working on a schedule, employment contract, grocery delivery services, direct employment with the employer, Yandex courier, delivery orders, courier deliveries, courier, direct payments, regular payments, delivery terms, courier schedule, office-independent work, hourly-paid courier, job openings with immediate pay, logistics and delivery, daily pay, flexible hours, home delivery, courier working hours, Yandex courier, Yandex Courier, courier responsibilities, evening shift job openings, Glovo, courier with daily pay, free courier training, earning money through deliveries, convenient working conditions, part-time work using a phone, courier with daily assignments, mobile app for couriers, matching, jobs with good conditions, Wolt, delivery seven days a week, courier for document delivery, easy way to earn extra money, courier, working with goods, job openings for active people, work at a popular delivery service, Wolt courier, Glovo courier.",
+        "original_score": 0.2363489866256714,
+        "score_without_passage": 0.4735005795955658,
+        "delta_original_minus_ablated": -0.2371515929698944
+      },
+      {
+        "field": "description",
+        "removed_normalized_text": "com (free version)",
+        "original_score": 0.2363489866256714,
+        "score_without_passage": 0.33551907539367676,
+        "delta_original_minus_ablated": -0.09917008876800537
+      },
+      {
+        "field": "description",
+        "removed_normalized_text": "Courier for door-to-door delivery (small, lightweight) orders \u2b50\ufe0f You decide whether you want to work a shift \ud83d\udce9 You receive the order\u2014everything is already packed; no need to check anything \u26a1\ufe0f Deliver within your neighborhood \u263a\ufe0f No need to sell or explain anything\u2014just deliver \u2763\ufe0f It\u2019s as simple and stress-free as possible What to expect: \u2705 High earnings ranging from 20,000 to 60,000 tenge per day \u2705 Flexible schedule \u2705 Deliveries in a neighborhood convenient for you \u2705 Weekly payouts \u2705 Light orders weighing up to 3 kg \u2705 Promotions and bonuses \u2705 You keep the tips \u2705 Quick onboarding\u2014in just 1 day What we need from you: \u2014 \ud83d\udcf1 A smartphone with internet access \u2014 \ud83d\udce9 Attention to detail with packages \u2014 \u2714\ufe0f A responsible approach Why working with us is convenient: \u2022 \u2705 Flexible schedule: you choose your own shifts \u2022 \u2705 On-time payments \u2022 \u2705 24/7 support Ready to get started?",
+        "original_score": 0.2363489866256714,
+        "score_without_passage": 0.2828620970249176,
+        "delta_original_minus_ablated": -0.046513110399246216
+      },
+      {
+        "field": "description",
+        "removed_normalized_text": "Translated with DeepL.",
+        "original_score": 0.2363489866256714,
+        "score_without_passage": 0.2618550956249237,
+        "delta_original_minus_ablated": -0.02550610899925232
+      },
+      {
+        "field": "description",
+        "removed_normalized_text": "\u2753 Click \u201cAPPLY\u201d \ud83d\udd18\u2611\ufe0f\u2014 and you can start your first deliveries today!",
+        "original_score": 0.2363489866256714,
+        "score_without_passage": 0.21967606246471405,
+        "delta_original_minus_ablated": 0.016672924160957336
+      }
+    ],
+    "limitations": "LR contributions are LR-only additive logit contributions. Neural deletion recomputes TF-IDF and normalization; deltas reflect sensitivity to deletion, not causal reasoning, semantic understanding, or criminal evidence."
+  },
+  "equipment_paid": {
+    "model_version": "emscad-v1",
+    "logistic_features": [
+      {
+        "term": "entry",
+        "tfidf_times_coefficient": 0.30742448610297757
+      },
+      {
+        "term": "operations",
+        "tfidf_times_coefficient": 0.2566618529547454
+      },
+      {
+        "term": "our",
+        "tfidf_times_coefficient": -0.2411825547718676
+      },
+      {
+        "term": "package",
+        "tfidf_times_coefficient": 0.207567201867743
+      },
+      {
+        "term": "maintain",
+        "tfidf_times_coefficient": 0.19304242164885857
+      },
+      {
+        "term": "designated",
+        "tfidf_times_coefficient": 0.18179254605860898
+      },
+      {
+        "term": "supply",
+        "tfidf_times_coefficient": 0.16763764887298022
+      },
+      {
+        "term": "successful",
+        "tfidf_times_coefficient": -0.1651410501369439
+      },
+      {
+        "term": "is",
+        "tfidf_times_coefficient": -0.16370827762517828
+      },
+      {
+        "term": "configuration",
+        "tfidf_times_coefficient": -0.16172328873844152
+      },
+      {
+        "term": "the candidate",
+        "tfidf_times_coefficient": -0.14579452619728797
+      },
+      {
+        "term": "candidate",
+        "tfidf_times_coefficient": -0.14449591323308225
+      },
+      {
+        "term": "first",
+        "tfidf_times_coefficient": -0.14141464462945671
+      },
+      {
+        "term": "security",
+        "tfidf_times_coefficient": -0.13994577895180565
+      },
+      {
+        "term": "and communication",
+        "tfidf_times_coefficient": -0.13811879590765472
+      },
+      {
+        "term": "to maintain",
+        "tfidf_times_coefficient": -0.13430365315761428
+      }
+    ],
+    "logistic_intercept": -1.06551216205205,
+    "neural_sentence_ablation": [
+      {
+        "field": "requirements",
+        "removed_normalized_text": "To maintain a consistent security configuration, equipment purchased elsewhere cannot be used.",
+        "original_score": 0.07266194373369217,
+        "score_without_passage": 0.39789944887161255,
+        "delta_original_minus_ablated": -0.3252375051379204
+      },
+      {
+        "field": "requirements",
+        "removed_normalized_text": "This amount is included in the first payroll reimbursement after successful onboarding.",
+        "original_score": 0.07266194373369217,
+        "score_without_passage": 0.3263852894306183,
+        "delta_original_minus_ablated": -0.2537233456969261
+      },
+      {
+        "field": "requirements",
+        "removed_normalized_text": "The standard equipment package costs $290 and is initially covered by the candidate.",
+        "original_score": 0.07266194373369217,
+        "score_without_passage": 0.15170440077781677,
+        "delta_original_minus_ablated": -0.0790424570441246
+      },
+      {
+        "field": "company_profile",
+        "removed_normalized_text": "Our operations team supports scheduling, documentation and communication across departments.",
+        "original_score": 0.07266194373369217,
+        "score_without_passage": 0.12522082030773163,
+        "delta_original_minus_ablated": -0.05255887657403946
+      },
+      {
+        "field": "description",
+        "removed_normalized_text": "This is an entry-level operations role with training and regular feedback.",
+        "original_score": 0.07266194373369217,
+        "score_without_passage": 0.02346993423998356,
+        "delta_original_minus_ablated": 0.04919200949370861
+      },
+      {
+        "field": "requirements",
+        "removed_normalized_text": "Before the employment agreement is finalized, new team members complete workstation provisioning through our designated supply portal.",
+        "original_score": 0.07266194373369217,
+        "score_without_passage": 0.026073366403579712,
+        "delta_original_minus_ablated": 0.04658857733011246
+      },
+      {
+        "field": "description",
+        "removed_normalized_text": "Coordinate schedules, maintain accurate records and support internal teams.",
+        "original_score": 0.07266194373369217,
+        "score_without_passage": 0.04583829641342163,
+        "delta_original_minus_ablated": 0.02682364732027054
+      },
+      {
+        "field": "benefits",
+        "removed_normalized_text": "Flexible working arrangements, paid leave and professional development.",
+        "original_score": 0.07266194373369217,
+        "score_without_passage": 0.08194362372159958,
+        "delta_original_minus_ablated": -0.00928167998790741
+      },
+      {
+        "field": "title",
+        "removed_normalized_text": "Junior Operations Coordinator",
+        "original_score": 0.07266194373369217,
+        "score_without_passage": 0.0696258693933487,
+        "delta_original_minus_ablated": 0.0030360743403434753
+      }
+    ],
+    "limitations": "LR contributions are LR-only additive logit contributions. Neural deletion recomputes TF-IDF and normalization; deltas reflect sensitivity to deletion, not causal reasoning, semantic understanding, or criminal evidence."
+  },
+  "equipment_free": {
+    "model_version": "emscad-v1",
+    "logistic_features": [
+      {
+        "term": "no",
+        "tfidf_times_coefficient": 0.3546592521266011
+      },
+      {
+        "term": "entry",
+        "tfidf_times_coefficient": 0.30141476119383137
+      },
+      {
+        "term": "operations",
+        "tfidf_times_coefficient": 0.25164447621836206
+      },
+      {
+        "term": "the candidate",
+        "tfidf_times_coefficient": -0.24202598875173542
+      },
+      {
+        "term": "candidate",
+        "tfidf_times_coefficient": -0.23987025747839166
+      },
+      {
+        "term": "our",
+        "tfidf_times_coefficient": -0.2364677806074266
+      },
+      {
+        "term": "package",
+        "tfidf_times_coefficient": 0.2035095684930515
+      },
+      {
+        "term": "is required",
+        "tfidf_times_coefficient": 0.19317127615916702
+      },
+      {
+        "term": "maintain",
+        "tfidf_times_coefficient": 0.18926871799360395
+      },
+      {
+        "term": "designated",
+        "tfidf_times_coefficient": 0.1782387525101206
+      },
+      {
+        "term": "supply",
+        "tfidf_times_coefficient": 0.16436056918718867
+      },
+      {
+        "term": "is",
+        "tfidf_times_coefficient": -0.16050802009278545
+      },
+      {
+        "term": "configuration",
+        "tfidf_times_coefficient": -0.1585618328243827
+      },
+      {
+        "term": "security",
+        "tfidf_times_coefficient": -0.13721003547439647
+      },
+      {
+        "term": "and communication",
+        "tfidf_times_coefficient": -0.13541877087815354
+      },
+      {
+        "term": "to maintain",
+        "tfidf_times_coefficient": -0.13167820839029912
+      }
+    ],
+    "logistic_intercept": -1.06551216205205,
+    "neural_sentence_ablation": [
+      {
+        "field": "requirements",
+        "removed_normalized_text": "To maintain a consistent security configuration, equipment purchased elsewhere cannot be used.",
+        "original_score": 0.4112979769706726,
+        "score_without_passage": 0.8672106266021729,
+        "delta_original_minus_ablated": -0.45591264963150024
+      },
+      {
+        "field": "description",
+        "removed_normalized_text": "This is an entry-level operations role with training and regular feedback.",
+        "original_score": 0.4112979769706726,
+        "score_without_passage": 0.18987752497196198,
+        "delta_original_minus_ablated": 0.22142045199871063
+      },
+      {
+        "field": "requirements",
+        "removed_normalized_text": "Before the employment agreement is finalized, new team members complete workstation provisioning through our designated supply portal.",
+        "original_score": 0.4112979769706726,
+        "score_without_passage": 0.20356601476669312,
+        "delta_original_minus_ablated": 0.2077319622039795
+      },
+      {
+        "field": "company_profile",
+        "removed_normalized_text": "Our operations team supports scheduling, documentation and communication across departments.",
+        "original_score": 0.4112979769706726,
+        "score_without_passage": 0.5994888544082642,
+        "delta_original_minus_ablated": -0.18819087743759155
+      },
+      {
+        "field": "requirements",
+        "removed_normalized_text": "No payment is required from the candidate before or after onboarding.",
+        "original_score": 0.4112979769706726,
+        "score_without_passage": 0.543056070804596,
+        "delta_original_minus_ablated": -0.13175809383392334
+      },
+      {
+        "field": "description",
+        "removed_normalized_text": "Coordinate schedules, maintain accurate records and support internal teams.",
+        "original_score": 0.4112979769706726,
+        "score_without_passage": 0.3232688307762146,
+        "delta_original_minus_ablated": 0.08802914619445801
+      },
+      {
+        "field": "benefits",
+        "removed_normalized_text": "Flexible working arrangements, paid leave and professional development.",
+        "original_score": 0.4112979769706726,
+        "score_without_passage": 0.47370821237564087,
+        "delta_original_minus_ablated": -0.06241023540496826
+      },
+      {
+        "field": "requirements",
+        "removed_normalized_text": "The standard equipment package is provided by the employer at no cost to the candidate.",
+        "original_score": 0.4112979769706726,
+        "score_without_passage": 0.3881840705871582,
+        "delta_original_minus_ablated": 0.023113906383514404
+      },
+      {
+        "field": "title",
+        "removed_normalized_text": "Junior Operations Coordinator",
+        "original_score": 0.4112979769706726,
+        "score_without_passage": 0.4142495393753052,
+        "delta_original_minus_ablated": -0.0029515624046325684
+      }
+    ],
+    "limitations": "LR contributions are LR-only additive logit contributions. Neural deletion recomputes TF-IDF and normalization; deltas reflect sensitivity to deletion, not causal reasoning, semantic understanding, or criminal evidence."
+  }
+}

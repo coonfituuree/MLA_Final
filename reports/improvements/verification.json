@@ -1,0 +1,20 @@
+{
+  "active_bundle": {
+    "status": "ready",
+    "model_version": "emscad-v2",
+    "device": "cpu"
+  },
+  "available_models": [
+    "neural_network",
+    "logistic_regression",
+    "word_char_logistic",
+    "context_encoder"
+  ],
+  "python_checks_passed": 51,
+  "browser_scenarios_passed": 4,
+  "original_artifacts_unchanged": true,
+  "original_split_unchanged": true,
+  "qa_frontend": "http://localhost:5174",
+  "qa_backend": "http://127.0.0.1:8001",
+  "existing_user_instance_on_default_ports_requires_restart": true
+}

@@ -1,0 +1,65 @@
+{
+  "majority_baseline": {
+    "accuracy": 0.9614505063704671,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "pr_auc_average_precision": 0.03854949362953283,
+    "roc_auc": 0.5,
+    "threshold": 0.5,
+    "confusion_matrix": [
+      [
+        2943,
+        0
+      ],
+      [
+        118,
+        0
+      ]
+    ],
+    "test_count": 3061,
+    "fraudulent_count": 118
+  },
+  "logistic_regression": {
+    "accuracy": 0.9761515844495263,
+    "precision": 0.7922077922077922,
+    "recall": 0.5169491525423728,
+    "f1": 0.6256410256410256,
+    "pr_auc_average_precision": 0.6786474935739855,
+    "roc_auc": 0.926706289558101,
+    "threshold": 0.6970136338980503,
+    "confusion_matrix": [
+      [
+        2927,
+        16
+      ],
+      [
+        57,
+        61
+      ]
+    ],
+    "test_count": 3061,
+    "fraudulent_count": 118
+  },
+  "neural_network": {
+    "accuracy": 0.9745181313296308,
+    "precision": 0.7439024390243902,
+    "recall": 0.5169491525423728,
+    "f1": 0.61,
+    "pr_auc_average_precision": 0.6389208971019862,
+    "roc_auc": 0.925580377454114,
+    "threshold": 0.7591350674629211,
+    "confusion_matrix": [
+      [
+        2922,
+        21
+      ],
+      [
+        57,
+        61
+      ]
+    ],
+    "test_count": 3061,
+    "fraudulent_count": 118
+  }
+}

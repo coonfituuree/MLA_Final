@@ -1,0 +1,326 @@
+[
+  {
+    "model": "neural_network",
+    "kind": "false_positive",
+    "job_id": 25,
+    "dataset_label": 0,
+    "title": "Customer Service ",
+    "score": 0.9860988855361938,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "neural_network",
+    "kind": "false_positive",
+    "job_id": 779,
+    "dataset_label": 0,
+    "title": "GREAT Bookkeeper Position Available",
+    "score": 0.9806367754936218,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "neural_network",
+    "kind": "false_positive",
+    "job_id": 1092,
+    "dataset_label": 0,
+    "title": "Book Keeper",
+    "score": 0.9485732316970825,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "neural_network",
+    "kind": "false_positive",
+    "job_id": 1165,
+    "dataset_label": 0,
+    "title": "Assistant Manager",
+    "score": 0.9657037854194641,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "neural_network",
+    "kind": "false_negative",
+    "job_id": 358,
+    "dataset_label": 1,
+    "title": "Financing Auto(car) sales",
+    "score": 0.40647435188293457,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "neural_network",
+    "kind": "false_negative",
+    "job_id": 1996,
+    "dataset_label": 1,
+    "title": "Customer service/ Data Entry ",
+    "score": 0.0007255240925587714,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "neural_network",
+    "kind": "false_negative",
+    "job_id": 2052,
+    "dataset_label": 1,
+    "title": "Maintenance Supervisor ",
+    "score": 2.346499513805611e-06,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "neural_network",
+    "kind": "false_negative",
+    "job_id": 2445,
+    "dataset_label": 1,
+    "title": "Urgent Requirement For The Position Technical Lead - Rhomobile Technical Mobility Lead Developer",
+    "score": 8.965376764535904e-05,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "logistic_regression",
+    "kind": "false_positive",
+    "job_id": 25,
+    "dataset_label": 0,
+    "title": "Customer Service ",
+    "score": 0.7789942274916322,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "logistic_regression",
+    "kind": "false_positive",
+    "job_id": 779,
+    "dataset_label": 0,
+    "title": "GREAT Bookkeeper Position Available",
+    "score": 0.7372635999195266,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "logistic_regression",
+    "kind": "false_positive",
+    "job_id": 904,
+    "dataset_label": 0,
+    "title": "Customer Sales Representative",
+    "score": 0.7368573022561279,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "logistic_regression",
+    "kind": "false_positive",
+    "job_id": 1165,
+    "dataset_label": 0,
+    "title": "Assistant Manager",
+    "score": 0.7564721348253208,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "logistic_regression",
+    "kind": "false_negative",
+    "job_id": 358,
+    "dataset_label": 1,
+    "title": "Financing Auto(car) sales",
+    "score": 0.15708496923646165,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "logistic_regression",
+    "kind": "false_negative",
+    "job_id": 585,
+    "dataset_label": 1,
+    "title": "Quality Improvement Manager ",
+    "score": 0.49696812535038404,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "logistic_regression",
+    "kind": "false_negative",
+    "job_id": 1996,
+    "dataset_label": 1,
+    "title": "Customer service/ Data Entry ",
+    "score": 0.2325920292399166,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "logistic_regression",
+    "kind": "false_negative",
+    "job_id": 2052,
+    "dataset_label": 1,
+    "title": "Maintenance Supervisor ",
+    "score": 0.002956992720025764,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "majority_baseline",
+    "kind": "false_negative",
+    "job_id": 358,
+    "dataset_label": 1,
+    "title": "Financing Auto(car) sales",
+    "score": 0.0,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "majority_baseline",
+    "kind": "false_negative",
+    "job_id": 585,
+    "dataset_label": 1,
+    "title": "Quality Improvement Manager ",
+    "score": 0.0,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "majority_baseline",
+    "kind": "false_negative",
+    "job_id": 1139,
+    "dataset_label": 1,
+    "title": "Administrative Assistant",
+    "score": 0.0,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "majority_baseline",
+    "kind": "false_negative",
+    "job_id": 1205,
+    "dataset_label": 1,
+    "title": "Health + Environmental Professional",
+    "score": 0.0,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "word_char_logistic",
+    "kind": "false_positive",
+    "job_id": 25,
+    "dataset_label": 0,
+    "title": "Customer Service ",
+    "score": 0.8707083600195217,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "word_char_logistic",
+    "kind": "false_positive",
+    "job_id": 779,
+    "dataset_label": 0,
+    "title": "GREAT Bookkeeper Position Available",
+    "score": 0.765888910032061,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "word_char_logistic",
+    "kind": "false_positive",
+    "job_id": 904,
+    "dataset_label": 0,
+    "title": "Customer Sales Representative",
+    "score": 0.7604258354272186,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "word_char_logistic",
+    "kind": "false_positive",
+    "job_id": 1165,
+    "dataset_label": 0,
+    "title": "Assistant Manager",
+    "score": 0.8380577149137916,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "word_char_logistic",
+    "kind": "false_negative",
+    "job_id": 358,
+    "dataset_label": 1,
+    "title": "Financing Auto(car) sales",
+    "score": 0.11250709769116674,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "word_char_logistic",
+    "kind": "false_negative",
+    "job_id": 585,
+    "dataset_label": 1,
+    "title": "Quality Improvement Manager ",
+    "score": 0.4209149782093139,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "word_char_logistic",
+    "kind": "false_negative",
+    "job_id": 1996,
+    "dataset_label": 1,
+    "title": "Customer service/ Data Entry ",
+    "score": 0.34558815395339176,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "word_char_logistic",
+    "kind": "false_negative",
+    "job_id": 2052,
+    "dataset_label": 1,
+    "title": "Maintenance Supervisor ",
+    "score": 0.00101052559237171,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "context_encoder",
+    "kind": "false_positive",
+    "job_id": 1560,
+    "dataset_label": 0,
+    "title": "IT- Auditor",
+    "score": 0.5474734902381897,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "context_encoder",
+    "kind": "false_positive",
+    "job_id": 1659,
+    "dataset_label": 0,
+    "title": "Data Entry",
+    "score": 0.8338133096694946,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "context_encoder",
+    "kind": "false_positive",
+    "job_id": 1747,
+    "dataset_label": 0,
+    "title": "Data Entry",
+    "score": 0.7009961605072021,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "context_encoder",
+    "kind": "false_positive",
+    "job_id": 1824,
+    "dataset_label": 0,
+    "title": "Data Entry",
+    "score": 0.8882436752319336,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "context_encoder",
+    "kind": "false_negative",
+    "job_id": 358,
+    "dataset_label": 1,
+    "title": "Financing Auto(car) sales",
+    "score": 0.0016620607348158956,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "context_encoder",
+    "kind": "false_negative",
+    "job_id": 585,
+    "dataset_label": 1,
+    "title": "Quality Improvement Manager ",
+    "score": 0.017568273469805717,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "context_encoder",
+    "kind": "false_negative",
+    "job_id": 1663,
+    "dataset_label": 1,
+    "title": "administrative assistance ",
+    "score": 0.007633221335709095,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  },
+  {
+    "model": "context_encoder",
+    "kind": "false_negative",
+    "job_id": 1996,
+    "dataset_label": 1,
+    "title": "Customer service/ Data Entry ",
+    "score": 0.0006378425750881433,
+    "source": "EMSCAD checksum in data/provenance.json; inspect original locally for text."
+  }
+]

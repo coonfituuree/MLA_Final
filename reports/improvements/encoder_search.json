@@ -1,0 +1,216 @@
+{
+  "selected": {
+    "lr": 0.0002,
+    "best_epoch": 1,
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 2.022848961195865,
+        "precision": 0.8333333333333334,
+        "recall": 0.45454545454545453,
+        "f1": 0.5882352941176471,
+        "average_precision": 0.615437912156197,
+        "false_positives": 11,
+        "confusion_matrix": [
+          [
+            2430,
+            11
+          ],
+          [
+            66,
+            55
+          ]
+        ],
+        "threshold": 0.48287349939346313,
+        "count": 2562,
+        "positive_count": 121
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.5274850250510322,
+        "precision": 0.803030303030303,
+        "recall": 0.4380165289256198,
+        "f1": 0.5668449197860963,
+        "average_precision": 0.5716566581837149,
+        "false_positives": 13,
+        "confusion_matrix": [
+          [
+            2428,
+            13
+          ],
+          [
+            68,
+            53
+          ]
+        ],
+        "threshold": 0.999782383441925,
+        "count": 2562,
+        "positive_count": 121
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.12598605621432352,
+        "precision": 0.5983606557377049,
+        "recall": 0.6033057851239669,
+        "f1": 0.6008230452674898,
+        "average_precision": 0.5532818754298696,
+        "false_positives": 49,
+        "confusion_matrix": [
+          [
+            2392,
+            49
+          ],
+          [
+            48,
+            73
+          ]
+        ],
+        "threshold": 0.8633096218109131,
+        "count": 2562,
+        "positive_count": 121
+      }
+    ],
+    "validation": {
+      "precision": 0.8333333333333334,
+      "recall": 0.45454545454545453,
+      "f1": 0.5882352941176471,
+      "average_precision": 0.615437912156197,
+      "false_positives": 11,
+      "confusion_matrix": [
+        [
+          2430,
+          11
+        ],
+        [
+          66,
+          55
+        ]
+      ],
+      "threshold": 0.48287349939346313,
+      "count": 2562,
+      "positive_count": 121
+    }
+  },
+  "trials": [
+    {
+      "lr": 0.0002,
+      "best_epoch": 1,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 2.022848961195865,
+          "precision": 0.8333333333333334,
+          "recall": 0.45454545454545453,
+          "f1": 0.5882352941176471,
+          "average_precision": 0.615437912156197,
+          "false_positives": 11,
+          "confusion_matrix": [
+            [
+              2430,
+              11
+            ],
+            [
+              66,
+              55
+            ]
+          ],
+          "threshold": 0.48287349939346313,
+          "count": 2562,
+          "positive_count": 121
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.5274850250510322,
+          "precision": 0.803030303030303,
+          "recall": 0.4380165289256198,
+          "f1": 0.5668449197860963,
+          "average_precision": 0.5716566581837149,
+          "false_positives": 13,
+          "confusion_matrix": [
+            [
+              2428,
+              13
+            ],
+            [
+              68,
+              53
+            ]
+          ],
+          "threshold": 0.999782383441925,
+          "count": 2562,
+          "positive_count": 121
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.12598605621432352,
+          "precision": 0.5983606557377049,
+          "recall": 0.6033057851239669,
+          "f1": 0.6008230452674898,
+          "average_precision": 0.5532818754298696,
+          "false_positives": 49,
+          "confusion_matrix": [
+            [
+              2392,
+              49
+            ],
+            [
+              48,
+              73
+            ]
+          ],
+          "threshold": 0.8633096218109131,
+          "count": 2562,
+          "positive_count": 121
+        }
+      ],
+      "validation": {
+        "precision": 0.8333333333333334,
+        "recall": 0.45454545454545453,
+        "f1": 0.5882352941176471,
+        "average_precision": 0.615437912156197,
+        "false_positives": 11,
+        "confusion_matrix": [
+          [
+            2430,
+            11
+          ],
+          [
+            66,
+            55
+          ]
+        ],
+        "threshold": 0.48287349939346313,
+        "count": 2562,
+        "positive_count": 121
+      }
+    }
+  ],
+  "source": {
+    "model_id": "google/bert_uncased_L-2_H-128_A-2",
+    "revision": "30b0a37ccaaa32f332884b96992754e246e48c5f",
+    "license": "Apache-2.0",
+    "url": "https://huggingface.co/google/bert_uncased_L-2_H-128_A-2"
+  },
+  "architecture": {
+    "chunk_tokens": 192,
+    "chunk_overlap": 0,
+    "pooling": "token-count weighted mean of within-chunk masked mean hidden states",
+    "dropout": 0.2,
+    "all_input_tokens_retained": true
+  },
+  "training": {
+    "seed": 42,
+    "optimizer": "AdamW",
+    "loss": "BCEWithLogitsLoss",
+    "positive_weight": 20.622362869198312,
+    "batch_documents": 8,
+    "epoch_limit": 3,
+    "patience": 2,
+    "weight_decay": 0.01,
+    "gradient_clip": 1.0,
+    "fine_tuned_encoder_parameters": true,
+    "train_count": 10249
+  },
+  "split_sha256": "4abc3a4449456421743d3f7a2dac6e69ff54e1af31ddefa5c1c8afce7f2a2b7a",
+  "test_used_for_selection": false
+}

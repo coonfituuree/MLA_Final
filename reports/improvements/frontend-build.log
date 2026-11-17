@@ -1,0 +1,14 @@
+
+> vacancylens@1.0.0 build
+> tsc -b && vite build
+
+vite v8.3.8 building client environment for production...
+transforming...
+✓ 17 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.62 kB │ gzip:  0.37 kB
+dist/assets/index-BUepoT9w.css   13.92 kB │ gzip:  3.67 kB
+dist/assets/index-Bx3TsDuy.js   200.94 kB │ gzip: 63.58 kB
+
+✓ built in 156ms

@@ -1,0 +1,74 @@
+[
+  {
+    "job_id": 50,
+    "topic": "courier",
+    "source_type": "real_EMSCAD_advertisement",
+    "source_partition": "training",
+    "dataset_fraud_label": 0,
+    "evidence_status": "historical_dataset_label_not_independent_present_day_verification",
+    "excerpt": "Provide courier services",
+    "excerpt_sha256": "cc528747a19faf4f8d4920d9fa44c662a20363d241afa600ef55a23a7911a642",
+    "review_signal_codes": [],
+    "use": "sourced qualitative negative control; not independent accuracy evidence"
+  },
+  {
+    "job_id": 3781,
+    "topic": "reimbursement",
+    "source_type": "real_EMSCAD_advertisement",
+    "source_partition": "training",
+    "dataset_fraud_label": 0,
+    "evidence_status": "historical_dataset_label_not_independent_present_day_verification",
+    "excerpt": "Generous reimbursement policy for job-related IT equipment.",
+    "excerpt_sha256": "2a1198491df70a5bcf31dc2cad03205b6f2aebea6bac8c9c114c88e77fddce93",
+    "review_signal_codes": [],
+    "use": "sourced qualitative negative control; not independent accuracy evidence"
+  },
+  {
+    "job_id": 11,
+    "topic": "remote",
+    "source_type": "real_EMSCAD_advertisement",
+    "source_partition": "training",
+    "dataset_fraud_label": 0,
+    "evidence_status": "historical_dataset_label_not_independent_present_day_verification",
+    "excerpt": "Desire and ability to work from home",
+    "excerpt_sha256": "c4ef8b8e1ab56c2d4ec1b3454f4e2776a98aaa881a50b8195b28ec986ec4e174",
+    "review_signal_codes": [],
+    "use": "sourced qualitative negative control; not independent accuracy evidence"
+  },
+  {
+    "job_id": 33,
+    "topic": "entry_level",
+    "source_type": "real_EMSCAD_advertisement",
+    "source_partition": "training",
+    "dataset_fraud_label": 0,
+    "evidence_status": "historical_dataset_label_not_independent_present_day_verification",
+    "excerpt": "Entry-Level Craftsman Associate Position",
+    "excerpt_sha256": "80aee51479f917746a65260c60b0aeadb85f93e0053b78a59196b2d77b682da7",
+    "review_signal_codes": [],
+    "use": "sourced qualitative negative control; not independent accuracy evidence"
+  },
+  {
+    "job_id": 4914,
+    "topic": "employer_provided_equipment",
+    "source_type": "real_EMSCAD_advertisement",
+    "source_partition": "training",
+    "dataset_fraud_label": 0,
+    "evidence_status": "historical_dataset_label_not_independent_present_day_verification",
+    "excerpt": "A new laptop to work on is provided to each new employee.",
+    "excerpt_sha256": "14f3b0a6c37a90507e027e912eb683581989b55e2d0a739fdaf2d932736e4078",
+    "review_signal_codes": [],
+    "use": "sourced qualitative negative control; not independent accuracy evidence"
+  },
+  {
+    "job_id": 964,
+    "topic": "administrative_payments",
+    "source_type": "real_EMSCAD_advertisement",
+    "source_partition": "training",
+    "dataset_fraud_label": 0,
+    "evidence_status": "historical_dataset_label_not_independent_present_day_verification",
+    "excerpt": "Will prepare and mail checks.",
+    "excerpt_sha256": "5f663600a2ece889b828b01de15861d3bbd6eb3a16020a73c81da8eefadf7667",
+    "review_signal_codes": [],
+    "use": "sourced qualitative negative control; not independent accuracy evidence"
+  }
+]

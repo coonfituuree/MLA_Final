@@ -1,0 +1,19 @@
+{
+  "baseline.joblib": "7b6820324312d2b6c467ee6ab1140e0946fb72d060543c18c7f600d85c43c635",
+  "config.json": "b7b4fd6b708253c838e3aa9b75c7e5f9e46ef4c6de50c14620ab90bb72611ce1",
+  "encoder/LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+  "encoder/NOTICE.txt": "e11be779361dc297b2bd110e3e9f04d5f33d994fdd83e742e58fb7d4d62b0739",
+  "encoder/encoder.pt": "30e71357cf09c2de91052e9228f68ba90cefaebcc2a0548414ae41777c2d4b44",
+  "encoder/selection.json": "5c25c061a412dd36cb5694d7cebabadbc1e49ced51f551599ae65151d50873cd",
+  "encoder/tokenizer/config.json": "508e1f01aae55d73355cbdd82609be2f43ba5a0d3428837adbe56cf8391f8b39",
+  "encoder/tokenizer/special_tokens_map.json": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+  "encoder/tokenizer/tokenizer.json": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+  "encoder/tokenizer/tokenizer_config.json": "e711904cac23112776b678356ccf702cf934babaa01125f698ac43bf9ad38e73",
+  "encoder/tokenizer/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+  "logistic_features.joblib": "85cec1e7e671b0da85225c8d1fdc9022f55e4fab1d4ceb8d38b280fd65047df4",
+  "logistic_regression.joblib": "7fb94f49afde12e989657800fea08cea8ee4c41400f2c4324553afd8e94d5539",
+  "metrics.json": "828ae3642033bf83359400e7714aace5d291234f805e59d3f0d6ed046f1974c8",
+  "neural_network.pt": "a4ce6d006b50127873a98cd0014eb47ff3a9b96fe4f9632ad24edfc12e432dda",
+  "vectorizer.joblib": "785b6a8760804ca1fd2774618ec0ec875e9b77a1ccad441aa8106f1346cf338e",
+  "word_char_logistic.joblib": "e55f543fdf7f6851f3c6e1ea0d1333c38dd935cc4a22fd5c3684b12f02a31e3d"
+}
